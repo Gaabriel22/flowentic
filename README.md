@@ -2,6 +2,10 @@
 
 Site institucional moderno para Flowentic — soluções personalizadas de automação empresarial, focado em eficiência e crescimento sustentável.
 
+## Deploy
+
+Veja o site funcionando em: [https://flowentic.vercel.app](https://flowentic.vercel.app)
+
 ---
 
 ## Índice
