@@ -1,0 +1,61 @@
+@use "@/styles/variables" as *;
+
+.header {
+  background-color: var(--color-background);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: background-color 0.3s ease;
+}
+
+.navbar {
+  padding: 0.8rem 1rem;
+  background-color: var(--color-background);
+}
+
+.toggle {
+  background: transparent;
+  border: none;
+  padding: 0.25rem;
+
+  .icon {
+    color: var(--color-primary);
+    font-size: 1.5rem;
+    transition: color 0.3s;
+  }
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+}
+
+.text {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: var(--color-primary);
+}
+
+.link {
+  margin-left: 1rem;
+  font-weight: 500;
+  color: var(--color-text);
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: var(--color-primary);
+  }
+}
+
+.themeToggle {
+  margin-left: 1rem;
+
+  button {
+    padding: 0.25rem 0.5rem;
+  }
+}
