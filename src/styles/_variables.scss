@@ -1,0 +1,27 @@
+:root {
+  // Tema Claro
+  --color-text: #333333;
+  --color-background: #f9f9f9;
+  --color-primary: #0066ff;
+  --color-secondary: #1b74e4;
+  --color-accent: #ff9500;
+}
+
+body.dark {
+  // Tema Escuro
+  --color-text: #eaeaea;
+  --color-background: #1f1f1f;
+  --color-primary: #0066ff;
+  --color-secondary: #4a90e2;
+  --color-accent: #ff9500;
+}
+
+// Fontes e outras configs globais
+$font-base: "Inter", sans-serif;
+
+// SCSS helpers (exemplo de uso das variáveis CSS)
+$text-color: var(--color-text);
+$bg-color: var(--color-background);
+$primary-color: var(--color-primary);
+$secondary-color: var(--color-secondary);
+$accent-color: var(--color-accent);
