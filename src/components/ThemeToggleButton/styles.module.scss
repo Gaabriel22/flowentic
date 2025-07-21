@@ -1,0 +1,40 @@
+@use "@/styles/variables" as *;
+
+.themeToggleBtn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: $font-base;
+  border: 2px solid transparent;
+
+  .icon {
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+  }
+
+  &:hover {
+    opacity: 0.9;
+  }
+
+  &:hover .icon {
+    transform: rotate(20deg);
+  }
+
+  // Estilos para o botão no tema claro
+  &.light {
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    border-color: var(--color-primary);
+  }
+
+  // Estilos para o botão no tema escuro
+  &.dark {
+    background-color: var(--color-secondary);
+    color: var(--color-text);
+    border-color: var(--color-secondary);
+  }
+}
