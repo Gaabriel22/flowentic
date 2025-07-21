@@ -1,4 +1,3 @@
-````md
 # Flowentic
 
 Site institucional moderno para Flowentic — soluções personalizadas de automação empresarial, focado em eficiência e crescimento sustentável.
@@ -58,7 +57,6 @@ O projeto utiliza as seguintes tecnologias:
 git clone https://github.com/Gaabriel22/flowentic
 cd flowentic
 ```
-````
 
 2. Instale as dependências:
 
@@ -94,7 +92,3 @@ yarn dev
 ## Licença
 
 MIT © Gabriel
-
-```
-
-```
