@@ -1,0 +1,64 @@
+@use "@/styles/variables" as *;
+
+.hero {
+  background-color: var(--color-primary);
+  color: var(--color-background);
+  min-height: 100vh;
+  padding: 4rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+}
+
+.cta {
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  background-color: var(--color-accent);
+}
+
+.cta:hover {
+  background-color: #cc7700;
+}
+
+.scrollDown {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: bounce 2s infinite;
+  font-size: 1.5rem;
+  color: var(--color-background);
+  opacity: 0.8;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(10px);
+  }
+}
